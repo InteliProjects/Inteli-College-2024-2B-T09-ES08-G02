@@ -1,0 +1,22 @@
+{
+  "canisters": {
+    "blockchain-integridad-backend": {
+      "main": "src/blockchain-integridad-backend/main.mo",
+      "type": "motoko"
+    },
+    "blockchain-integridad-frontend": {
+      "dependencies": ["blockchain-integridad-backend"],
+      "source": ["src/blockchain-integridad-frontend/dist"],
+      "type": "assets",
+      "workspace": "blockchain-integridad-frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "mops sources"
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

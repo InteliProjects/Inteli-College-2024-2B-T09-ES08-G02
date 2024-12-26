@@ -1,0 +1,48 @@
+# Ambiente virtual
+venv/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Configurações específicas de IDEs/editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs e arquivos temporários
+*.log
+*.bak
+*.tmp
+*.pid
+*.seed
+
+# Arquivos criados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# Dependências e arquivos gerados
+*.egg-info/
+build/
+dist/
+*.sqlite3
+*.db
+*.csv
+
+# Arquivos de cache do pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Arquivos de lock do editor
+*.lock

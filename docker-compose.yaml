@@ -1,0 +1,9 @@
+services:
+  naorepudio:
+    build:
+      context: ./src/naorepudio/
+      dockerfile: dockerfile
+    env_file:
+      - .env
+    ports:
+      - "5000:5000"
